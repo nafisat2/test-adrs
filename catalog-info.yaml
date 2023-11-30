@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-adrs
+  title: Test ADRs
+  description: A repository for testing ADR rendering
+  annotations:
+    backstage.io/adr-location: docs/adrs
+spec:
+  type: library
+  lifecycle: experimental
+  owner: nafisat2
