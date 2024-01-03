@@ -10,10 +10,6 @@ metadata:
   links:
     - title: GitHub Private Repo
       url: https://github.com/nafisat2/test-adrs
-    - title: Slack Channel
-      url: 
-    - title: SLO Dashboard
-      url: 
   annotations:
     backstage.io/techdocs-ref: dir:./
     backstage.io/adr-location: /docs/architecture-decisions
