@@ -16,6 +16,6 @@ metadata:
     backstage.io/adr-location: docs/architecture-decisions
     github.com/project-slug: nafisat2/test-adrs
 spec:
-  type: Library
+  type: service
   owner: nafisat2
   lifecycle: production
