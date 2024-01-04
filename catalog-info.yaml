@@ -6,15 +6,24 @@ metadata:
   name: test-adrs
   title: test-adrs
   description: |
-    
+    Testing adr rendering
   links:
     - title: GitHub Private Repo
       url: https://github.com/nafisat2/test-adrs
+    - title: Slack Channel
+      url: none
+    - title: SLO Dashboard
+      url: none
   annotations:
     backstage.io/techdocs-ref: dir:./
-    backstage.io/adr-location: docs/docs/architecture-decisions
+    backstage.io/adr-location: /docs/architecture-decisions
     github.com/project-slug: nafisat2/test-adrs
 spec:
-  type: library
+  type: 
+  domain: domain:default/none
   owner: user:default/nafisat2
+  system: system:default/none
   lifecycle: production
+  dependsOn:
+
+  
