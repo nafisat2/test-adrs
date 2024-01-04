@@ -1,0 +1,16 @@
+# To run locally
+# npx techdocs-cli serve -v -c docs/internal/mkdocs.yml
+# 
+site_name: ' Internal Documentation'
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+nav:
+  - Home: 'index.md'
+  - Architectural Decisions:
+    - Introduction: architecture-decisions/index.md
+
+plugins:
+  - techdocs-core
