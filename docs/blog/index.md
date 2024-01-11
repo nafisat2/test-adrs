@@ -1,2 +1,0 @@
-# The test-adrs Blog
-
