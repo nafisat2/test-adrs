@@ -1,9 +1,9 @@
 # To run locally
-# npx techdocs-cli serve -v -c ./docs/internal/mkdocs.yml
+# npx techdocs-cli serve -v -c ./mkdocs.yml
 # 
 site_name: 'test-adrs Internal Documentation'
 repo_url: https://github.com/nafisat2/test-adrs
-edit_uri: edit/main/docs/internal/docs
+edit_uri: edit/main/docs
 
 theme:
   name: material
@@ -12,5 +12,3 @@ theme:
 
 plugins:
   - techdocs-core
-  - blog:
-      post_url_format: "{date}/{slug}"

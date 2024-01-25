@@ -4,8 +4,7 @@ metadata:
   name: test-adrs
   title: test-adrs
   annotations:
-    backstage.io/adr-location: ./docs/internal/docs/adr
-    backstage.io/techdocs-ref: dir:./docs/internal
+    backstage.io/techdocs-ref: dir:.
     github.com/project-slug: nafisat2/test-adrs
 spec:
   type: service
