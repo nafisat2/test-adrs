@@ -33,5 +33,8 @@ If an ADR supersedes an older ADR then the status of the older ADR is changed to
 "superseded by YYYYMMDD-title", and links to the new ADR.
 
 <details><summary>❗Development Environment for Testing Changes</summary>
+  
+  >[!IMPORTANT]
+  >Always test breaking changes in development environment before production.
 
-**⚠️ IMPORTANT:** Always test breaking changes in development environment before production.
+A dedicated [**timed access development environment**](https://timed-access.grafana-dev.net/timed-access/access/request) is available for testing permission changes, new team configurations, and access policies before deploying to production.
