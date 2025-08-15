@@ -31,3 +31,9 @@ Records should be stored under the `./docs/internal/docs/adr` directory.
 
 If an ADR supersedes an older ADR then the status of the older ADR is changed to
 "superseded by YYYYMMDD-title", and links to the new ADR.
+
+
+<details><summary>❗Development Environment for Testing Changes</summary>
+
+ >[!IMPORTANT]
+ Always test breaking changes in development environment before production.
