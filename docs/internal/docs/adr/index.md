@@ -34,5 +34,4 @@ If an ADR supersedes an older ADR then the status of the older ADR is changed to
 
 <details><summary>❗Development Environment for Testing Changes</summary>
 
-> [!IMPORTANT]
-> Always test breaking changes in development environment before production.
+**⚠️ IMPORTANT:** Always test breaking changes in development environment before production.
